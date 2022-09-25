@@ -1,5 +1,4 @@
 # TOKYO2020オリンピック～水泳～
-#### ビデオデモ：[YouTube](https://youtu.be/-vMqXXmzFvE)
 #### 詳細：
 
 **機能**
@@ -52,7 +51,6 @@
 <br>
 
 # TOKYO 2020 Olympic Games - Aquatics
-#### Video Demo: [YouTube](https://youtu.be/-vMqXXmzFvE)
 #### Description:
 
 **Function**
