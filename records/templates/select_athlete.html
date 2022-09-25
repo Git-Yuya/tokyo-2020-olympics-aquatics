@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}
+    選手選択
+{% endblock %}
+
+{% block main %}
+    <form action="{% url 'records:athlete' %}" method="post">
+        {% csrf_token %}
+        <select name="athlete" id="athlete">
+            <option disabled selected>選手</option>
+            {% for athlete in athletes %}
+                <option>{{ athlete }}</option>
+            {% endfor %}
+        </select>
+
+        <button class="btn btn-primary" type="submit" onclick="return testCheck()">決定</button>
+
+        <p id="validate_msg" style="color: red;"></p>
+    </form>
+
+    <script>
+        function testCheck() {
+            var test = document.getElementById("athlete").value;
+            if(test == "選手") {
+                var validate = "選手を選択してください！";
+                document.getElementById("validate_msg").innerHTML = validate; 
+                return false; 
+            }
+        }
+    </script>
+{% endblock %}

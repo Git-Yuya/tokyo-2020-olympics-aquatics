@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}
+    チーム選択
+{% endblock %}
+
+{% block main %}
+    <form action="{% url 'records:team' %}" method="post">
+        {% csrf_token %}
+        <select name="team" id="team">
+            <option disabled selected>チーム</option>
+            {% for team in teams %}
+                <option>{{ team }}</option>
+            {% endfor %}
+        </select>
+
+        <button class="btn btn-primary" type="submit" onclick="return testCheck()">検索</button>
+
+        <p id="validate_msg" style="color: red;"></p>
+    </form>
+
+    <script>
+        function testCheck() {
+            var test = document.getElementById("team").value;
+            if(test == "チーム") {
+                var validate = "チームを選択してください！";
+                document.getElementById("validate_msg").innerHTML = validate; 
+                return false; 
+            }
+        }
+    </script>
+{% endblock %}

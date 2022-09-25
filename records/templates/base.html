@@ -1,0 +1,52 @@
+<!-- Load static tag to generate static file URLs. -->
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="ja">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+        <!-- http://getbootstrap.com/docs/5.0.2/ -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- swimming icon -->
+        <link href="{% static 'img/swimming.png' %}" rel="icon">
+
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+
+        <!-- http://getbootstrap.com/docs/5.0.2/ -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <title>TOKYO2020～水泳～: {% block title %}{% endblock %}</title>
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light border">
+            <a class="navbar-brand" href="{% url 'records:index' %}"><span class="blue">T</span><span class="yellow">O</span><span class="black">K</span><span class="green">Y</span><span class="red">O</span><span class="navy">2020</span><span class="royalblue">～水泳～</span></a>
+            <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto mt-2">
+                    <li class="nav-item"><a class="nav-link" href="{% url 'records:result' %}">結果</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'records:medal' %}">メダル</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'records:score' %}">得点</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'records:athlete' %}">選手</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'records:team' %}">チーム</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="container p-5">
+            {% block main %}{% endblock %}
+        </main>
+
+    </body>
+
+</html>
