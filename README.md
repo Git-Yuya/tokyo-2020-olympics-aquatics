@@ -2,17 +2,17 @@
 
 **機能**
 * 競技種目別の結果<br>
-    競技種目を選択して決定ボタンを押すと、選択した競技種目の結果が表示される。
+    競技種目を選択して決定ボタンを押すと，選択した競技種目の結果を表示．
 * メダルの個数<br>
-    メダルの総数順に各チームの獲得したメダルの個数が表示される。
+    メダルの総数順に各チームの獲得したメダルの個数を表示．
 * 得点<br>
-    得点順に各チームがそれぞれの競技で獲得した得点が表示される。
+    得点順に各チームがそれぞれの競技で獲得した得点を表示．
 * 選手別の結果<br>
-    選手を選択して決定ボタンを押すと、選択した選手の結果が表示される。
+    選手を選択して決定ボタンを押すと，選択した選手の結果を表示．
 * チーム別の結果<br>
-    チームを選択して決定ボタンを押すと、選択したチームの全選手の結果が表示される。
+    チームを選択して決定ボタンを押すと，選択したチームの全選手の結果を表示．
 
-**使用技術**
+**実装**
 * フロントエンド言語：
   <img src="https://img.shields.io/badge/-HTML5-E34F26.svg?logo=html5&style=plastic">
   <img src="https://img.shields.io/badge/-CSS3-1572B6.svg?logo=css3&style=plastic">
@@ -29,8 +29,9 @@
 **各ファイルの説明**
 * manage.py：メインファイル
 * conversion.py：tokyo2020.csvファイルの内容をdb.sqlite3ファイルにインポート
+* requirements.txt：パッケージ一覧
 * db.sqlite3：records_swimmingresult(id, sport, event, rank, athletes, team, record)
-* tokyo2020.csv：1~8位のデータ
+* tokyo2020.csv：1~8位のデータセット
 * index.html：21世紀のオリンピックの開催年、都市、国の表示
 * base.html：メタ情報やナビゲーションメニュー
 * select_event.html：競技・種目の選択フォーム
@@ -73,16 +74,25 @@
     Select a team and click the decision button to see the results of all players of the selected team.
 
 **Implementation**
-* Django (Python framework)
-* HTML / CSS
-* JavaScript
-* SQLite
+* Frontend Languages:
+  <img src="https://img.shields.io/badge/-HTML5-E34F26.svg?logo=html5&style=plastic">
+  <img src="https://img.shields.io/badge/-CSS3-1572B6.svg?logo=css3&style=plastic">
+  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E.svg?logo=javascript&style=plastic">
+* Backend Languages:
+  <img src="https://img.shields.io/badge/-Python-3776AB.svg?logo=python&style=plastic">
+* Backend Frameworks:
+  <img src="https://img.shields.io/badge/-Django-092E20.svg?logo=django&style=plastic">
+* Database:
+  <img src="https://img.shields.io/badge/-SQLite-003B57.svg?logo=SQLite&style=plastic">
+* IDE:
+  <img src="https://img.shields.io/badge/-VSCode-007ACC.svg?logo=visualstudiocode&style=plastic">
 
 **Description of each file**.
 * manage.py: Main file
 * conversion.py: Insert contents of tokyo2020.csv file into db.sqlite3 file
+* requirements.txt: Package List
 * db.sqlite3: records_swimmingresult(id, sport, event, rank, athletes, team, record)
-* tokyo2020.csv: Data of 1~8 ranks
+* tokyo2020.csv: Dataset of 1~8 ranks
 * index.html: Display year, city, and country of the 21st century Olympics
 * base.html: Meta information and navigation menu
 * select_event.html: Selection form for events and disciplines
