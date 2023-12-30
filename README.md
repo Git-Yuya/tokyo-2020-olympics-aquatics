@@ -18,8 +18,22 @@
 * HTML / CSS
 * JavaScript
 * SQLite
-* <img src="https://img.shields.io/badge/-Django-092E20.svg?logo=django&style=plastic">
 
+<!-- 使用技術 -->
+<p style="display: inline">
+    <!-- フロントエンド言語 -->
+    <img src="https://img.shields.io/badge/-HTML5-E34F26.svg?logo=html5&style=plastic">
+    <img src="https://img.shields.io/badge/-CSS3-1572B6.svg?logo=css3&style=plastic">
+    <img src="https://img.shields.io/badge/-JavaScript-F7DF1E.svg?logo=javascript&style=plastic">
+    <!-- バックエンドフレームワーク -->
+    <img src="https://img.shields.io/badge/-Django-092E20.svg?logo=django&style=plastic">
+    <!-- バックエンド言語 -->
+    <img src="https://img.shields.io/badge/-Python-3776AB.svg?logo=python&style=plastic">
+    <!-- ミドルウェア -->
+    <img src="https://img.shields.io/badge/-SQLite-66CC99.svg?logo=SQLite&style=plastic">
+    <!-- IDE -->
+    <img src="https://img.shields.io/badge/-VSCode-007ACC.svg?logo=visualstudiocode&style=plastic">
+</p>
 
 **各ファイルの説明**
 * manage.py：メインファイル
