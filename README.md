@@ -1,5 +1,4 @@
 # TOKYO2020オリンピック～水泳～
-#### 詳細：
 
 **機能**
 * 競技種目別の結果<br>
@@ -14,17 +13,17 @@
     チームを選択して決定ボタンを押すと、選択したチームの全選手の結果が表示される。
 
 **使用技術**
-* フロントエンド言語
+* フロントエンド言語：
   <img src="https://img.shields.io/badge/-HTML5-E34F26.svg?logo=html5&style=plastic">
   <img src="https://img.shields.io/badge/-CSS3-1572B6.svg?logo=css3&style=plastic">
   <img src="https://img.shields.io/badge/-JavaScript-F7DF1E.svg?logo=javascript&style=plastic">
-* バックエンドフレームワーク
-  <img src="https://img.shields.io/badge/-Django-092E20.svg?logo=django&style=plastic">
-* バックエンド言語
+* バックエンド言語：
   <img src="https://img.shields.io/badge/-Python-3776AB.svg?logo=python&style=plastic">
-* ミドルウェア
+* バックエンドフレームワーク：
+  <img src="https://img.shields.io/badge/-Django-092E20.svg?logo=django&style=plastic">
+* データベース：
   <img src="https://img.shields.io/badge/-SQLite-003B57.svg?logo=SQLite&style=plastic">
-* IDE
+* 統合開発環境：
   <img src="https://img.shields.io/badge/-VSCode-007ACC.svg?logo=visualstudiocode&style=plastic">
 
 **各ファイルの説明**
