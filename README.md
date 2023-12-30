@@ -13,11 +13,13 @@
 * チーム別の結果<br>
     チームを選択して決定ボタンを押すと、選択したチームの全選手の結果が表示される。
 
-**実装**
+**使用技術**
 * Django（Pythonフレームワーク）
 * HTML / CSS
 * JavaScript
 * SQLite
+* <img src="https://img.shields.io/badge/-Django-092E20.svg?logo=django&style=plastic">
+
 
 **各ファイルの説明**
 * manage.py：メインファイル
