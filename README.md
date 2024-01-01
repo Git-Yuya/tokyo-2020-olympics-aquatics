@@ -1,19 +1,18 @@
 # TOKYO2020オリンピック～水泳～
 
-
 ## 機能
 ### 競技種目別の結果
-競技種目を選択して決定ボタンを押すと、選択した競技種目の結果を表示。
+競技種目を選択して決定ボタンを押すと、選択した競技種目の結果を表示する。
 
 https://github.com/Git-Yuya/olympics-aquatics/assets/84259422/d3153029-7faa-4379-bc3c-eaeea230ecc1
 
 ### メダルの個数
-メダルの総数順に各チームの獲得したメダルの個数を表示。
+メダルの総数順に各チームの獲得したメダルの個数を表示する。
 
 https://github.com/Git-Yuya/olympics-aquatics/assets/84259422/afc9212b-e0f1-4a96-8d2f-809009d79d0b
 
 ### 得点
-得点順に各チームがそれぞれの競技で獲得した得点を表示。得点配分は以下の表のとおりである。
+得点順に各チームがそれぞれの競技で獲得した得点を表示する。得点配分は以下の表のとおりである。
 <table>
     <tr>
         <td><b>順位</b></td>
@@ -42,12 +41,12 @@ https://github.com/Git-Yuya/olympics-aquatics/assets/84259422/afc9212b-e0f1-4a96
 https://github.com/Git-Yuya/olympics-aquatics/assets/84259422/eac90e59-ab17-4e50-9c15-f30b352d2179
 
 ### 選手別の結果
-選手を選択して決定ボタンを押すと、選択した選手の結果を表示。
+選手を選択して決定ボタンを押すと、選択した選手の結果を表示する。
 
 https://github.com/Git-Yuya/olympics-aquatics/assets/84259422/65948c02-5fe8-4a00-8ba5-f964772bb402
 
 ### チーム別の結果
-チームを選択して決定ボタンを押すと、選択したチームの全選手の結果を表示。
+チームを選択して決定ボタンを押すと、選択したチームの全選手の結果を表示する。
 
 https://github.com/Git-Yuya/olympics-aquatics/assets/84259422/edd52851-24b7-4a52-92dd-7ca30e53195a
 
