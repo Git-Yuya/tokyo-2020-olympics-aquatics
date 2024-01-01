@@ -62,7 +62,7 @@ https://github.com/Git-Yuya/olympics-aquatics/assets/84259422/edd52851-24b7-4a52
 - データベース：
   <img src="https://img.shields.io/badge/-SQLite-003B57.svg?logo=SQLite&style=plastic">
 - 統合開発環境：
-  <img src="https://img.shields.io/badge/-VSCode-007ACC.svg?logo=visualstudiocode&style=plastic">
+  <img src="https://img.shields.io/badge/-Visual Studio Code-007ACC.svg?logo=visualstudiocode&style=plastic">
 
 ## 各ファイルの説明
 - manage.py：メインファイル
