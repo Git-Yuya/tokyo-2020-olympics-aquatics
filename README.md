@@ -139,7 +139,8 @@ Select a team and click the decision button to see the results of all players of
 - Database:
   <img src="https://img.shields.io/badge/-SQLite-003B57.svg?logo=SQLite&style=plastic">
 - IDE:
-  <img src="https://img.shields.io/badge/-VSCode-007ACC.svg?logo=visualstudiocode&style=plastic">
+  <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC.svg?logo=visualstudiocode&style=plastic">
+
 
 ## Description of each file
 - manage.py: Main file
